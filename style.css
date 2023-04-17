@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Roboto&family=Sorts+Mill+Goudy:ital@1&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: white;
+    background-image: url(./Images/netflix-background-image\ 1.png);
+}
+#form-container {
+    width: 1240px;
+    height: 800px; /*TODO: will be removed */
+    background-color: rgba(0,0, 0, 0.3);
+    margin: 30px auto;
+    padding: 15px;
+}
+#form-header{
+ text-align: center;
+}
+#form-title {
+font-size: 50px;
+text-transform: uppercase;
+letter-spacing: 0.6;
+font-family: 'Bowlby One SC', cursive;
+}
+#form-title span {
+    color: red;
+}
+#form-subtitle {
+    font-family: 'Sorts Mill Goudy', serif;
+    font-size: 23px;
+}
+#survey-form {
+    width: 500px;
+    background-color: rgba(0,0, 0, 0.8);
+    margin: 15px auto;
+    padding: 30px 40px;
+}
+#form-submit {
+    font-size: inherit;
+    font-family: inherit;
+    color: inherit;
+    width: 100px;
+    height: 45px;
+    background: #ff0000;
+    border-radius: 50px;
+    border: none;
+    margin: 15px auto;
+    display: block;
+    cursor: pointer;
+}
+
+.form-input, .form-select {
+font-family: inherit;
+width: 100%;
+height: 60px;
+font-size: inherit;
+padding: 0 10px;
+}
+.form-group {
+    margin-bottom: 20px;
+}
+label, .group-label {
+   margin-bottom: 12px; 
+   display: block;
+}
+.group-label {
+margin-bottom: 4px; 
+}
+.form-textarea {
+    width: 100%;
+    font-size: inherit;
+    font-family: inherit;
+    padding: 10px 10px;
+}
